@@ -13,7 +13,7 @@ const AvailableMeals = () => {
 
   useEffect(() => {
     setLoading(true)
-    setError("")
+    setError()
     const getMeals = async () => {
       const data = await fetch('https://mealsorder-8a023-default-rtdb.firebaseio.com/meals.json')
 
